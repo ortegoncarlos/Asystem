@@ -1,17 +1,74 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns = "http://www.w3.org/ns/widgets"
-    xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.phonegap.example"
-    version   = "1.0.0">
-
-<name>PhoneGap Build Application</name>
-
-<description>
-A simple PhoneGap Build application.
-</description>
-
-<author href="https://example.com" email="you@example.com">
-Your Name
-</author>
-
-</widget>
+<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		id        = "com.pulsar.AmericanSystemService"
+		versionCode=""
+		version   = "1.0.0">
+		<name>American System App</name>
+		<description>
+Esta es la aplicacion de la compañia American System Service SAS		</description>
+		<author href="https://pulsaraudiovisual.com" email="carlosortegon@pulsaraudiovisual.com">
+Carlos Ortegón
+		</author>
+		<preference name="phonegap-version" value="3.3.0" />
+		<preference name="orientation" value="default" />
+		<preference name="fullscreen" value="true" />
+		<preference name="target-device" value="universal" />
+		<preference name="webviewbounce" value="true" />
+		<preference name="prerendered-icon" value="true" />
+		<preference name="stay-in-webview" value="true" />
+		<preference name="ios-statusbarstyle" value="default" />
+		<preference name="detect-data-types" value="true" />
+		<preference name="exit-on-suspend" value="true" />
+		<preference name="show-splash-screen-spinner" value="true" />
+		<preference name="auto-hide-splash-screen" value="true" />
+		<preference name="EnableViewportScale" value="true" />
+		<preference name="MediaPlaybackRequiresUserAction" value="true" />
+		<preference name="AllowInlineMediaPlayback" value="true" />
+		<preference name="BackupWebStorage" value="none" />
+		<preference name="TopActivityIndicator" value="gray" />
+		<preference name="KeyboardDisplayRequiresUserAction" value="true" />
+		<preference name="HideKeyboardFormAccessoryBar" value="true" />
+		<preference name="SuppressesIncrementalRendering" value="true" />
+		<preference name="android-minSdkVersion" value="7" />
+		<preference name="android-installLocation" value="internalOnly" />
+		<preference name="SplashScreenDelay" value="5000" />
+		<preference name="ErrorUrl" value=""/>
+		<preference name="BackgroundColor" value=""/>
+		<preference name="KeepRunning" value="true"/>
+		<preference name="DisallowOverscroll" value="true"/>
+		<preference name="LoadingDialog" value=","/> 
+		<preference name="LoadUrlTimeoutValue" value="20000" />
+		<preference name="disable-cursor" value="true" />
+		<gap:platform name="ios" />
+		<gap:platform name="android" />
+		<gap:platform name="winphone" />
+		<gap:plugin name="org.apache.cordova.geolocation"  />
+		<gap:plugin name="org.apache.cordova.inappbrowser"  />
+		<icon src="Icon/AppIcon57x57.png" gap:platform="ios" width="57" height="57" />
+		<icon src="Icon/AppIcon72x72.png" gap:platform="ios" width="72" height="72" />
+		<icon src="Icon/AppIcon57x57@2x.png" gap:platform="ios" width="114" height="114" />
+		<icon src="Icon/AppIcon72x72@2x.png" gap:platform="ios" width="144" height="144" />
+		<icon src="Icon/AppIcon76x76.png" gap:platform="ios" width="76" height="76" />
+		<icon src="Icon/AppIcon60x60@2x.png" gap:platform="ios" width="120" height="120" />
+		<icon src="Icon/AppIcon76x76@2x.png" gap:platform="ios" width="152" height="152" />
+		<icon src="Icon/AppIcon72x72.png" gap:platform="android" gap:density="hdpi" />
+		<icon src="Icon/AppIcon72x72@2x.png" gap:platform="android" gap:density="xxhdpi" />
+		<icon src="icon.png" />
+		<gap:splash src="assets/iphone/Default.png" gap:platform="ios" width="320" height="480" />
+		<gap:splash src="assets/iphone/Default-Landscape.png" gap:platform="ios" width="480" height="320" />
+		<gap:splash src="assets/iphone/Default@2x.png" gap:platform="ios" width="640" height="960" />
+		<gap:splash src="assets/iphone/Default-Landscape@2x.png" gap:platform="ios" width="960" height="640" />
+		<gap:splash src="assets/iphone/Default-568h@2x.png" gap:platform="ios" width="640" height="1136" />
+		<gap:splash src="assets/iphone/Default-Landscape@2x.png" gap:platform="ios" width="1136" height="640" />
+		<gap:splash src="assets/iphone/Default-Portrait.png" gap:platform="ios" width="768" height="1024 " />
+		<gap:splash src="assets/iphone/Default-Landscape.png" gap:platform="ios" width="1024" height="768" />
+		<gap:splash src="assets/iphone/Default-Portrait@2x.png" gap:platform="ios" width="1536" height="2008" />
+		<gap:splash src="assets/iphone/Default-Landscape@2x.png" gap:platform="ios" width="2048" height="1536" />
+		<gap:splash src="assets/android/images/res-notlong-port-ldpi/default.png" gap:platform="android" gap:density="ldpi" />
+		<gap:splash src="assets/android/images/res-notlong-port-mdpi/default.png" gap:platform="android" gap:density="mdpi" />
+		<gap:splash src="assets/android/images/res-long-port-hdpi/default.png" gap:platform="android" gap:density="hdpi" />
+		<gap:splash src="assets/android/images/res-long-port-xhdpi/default.png" gap:platform="android" gap:density="xhdpi" />
+		<gap:splash src="assets/android/images/res-long-port-hdpi/default.png" gap:platform="winphone" />
+		<access origin="*" />
+	</widget>

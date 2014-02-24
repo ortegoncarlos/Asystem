@@ -7,10 +7,11 @@ $('#gmap').live("pagecreate", function() {
 	$('#map_canvas').gmap('addMarker',{'id':'client', 'position' : '4.146536,-73.638827', 'bounds':true})
 
 	
-	
 	$('#map_canvas').gmap({'center': '4.668847,-74.07208', 'mapTypeId': 'roadmap', 'zoom': 12}).bind('init', function(evt, map){
 		
-			$('#map_canvas').gmap('watchPostion', function(position, status){
+		
+			
+			$('#map_canvas').gmap('geolocation', function(position, status){
 				if ( status=='OK' ){
 					
 					var latlang = new google.maps.latlang(position.coords.latitude, position.coords.longitude);
@@ -27,4 +28,5 @@ $('#gmap').live("pagecreate", function() {
 				}
 			});
 		});
+	
 	});

@@ -1,10 +1,37 @@
+
+#logo{
+	background-image:url(logo.png);
+	background-position:center;
+	height:150px;
+	background-repeat:no-repeat;
+	
+	}
+
+#footerx{
+	position:fixed;
+	bottom:0px;
+	z-index:100;
+	}	
+	
+#iframex{
+	min-height:600px;
+	
+	}	
+#formulario label{
+	
+	color:#FFF;
+	text-shadow: 0 0 0;
+	}	
+
+.ui-page {
+	background-image:url(background.png);
+	
+	}
+
+
 #aot{
 	position:fixed;
 	top:0px;
-	}
-	
-#iframex{
-	margin-top:40px;
 	}
 
 
